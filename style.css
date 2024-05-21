@@ -1,4 +1,8 @@
+body {
+   background-color: black;
+}
 main {
    display: grid;
    justify-items: center;
+   color: white;
 }
