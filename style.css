@@ -2,7 +2,37 @@ body {
    background-color: black;
 }
 main {
+   margin-top: 8rem;
    display: grid;
    justify-items: center;
    color: white;
+}
+.bentoRow {
+   height: 15rem;
+   width: 60rem;
+   display: flex;
+   justify-content: space-around;
+   align-content: space-around;
+   flex-wrap: wrap;
+}
+.longBox {
+   width: 74%;
+   height: 14.5rem;
+   background-color: #1a1919fa;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   border-radius: 1rem;
+}
+.smallBox {
+   width: 24%;
+   background-color: #1a1919fa;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 1rem;
+}
+img {
+   height: 10rem;
 }
