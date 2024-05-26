@@ -6,6 +6,13 @@
    font-style: normal;
  } */
 
+ /* .poiret-one-regular {
+   font-family: "Poiret One", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+ } */
+ 
+
 /**************************************************** MAIN BODY ****************************************************/
 
 body {
@@ -50,6 +57,14 @@ img {
 
 h1 {
    font-family: "Bebas Neue", sans-serif;
+   font-size: 4rem;
+   margin: 0 auto 1rem;
+}
+
+p {
+   font-family: "Poiret One", sans-serif;
+   font-size: 1.25rem;
+   padding: 0 5rem;
 }
 
 /****************************************** MOBILE CSS ******************************************/
