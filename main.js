@@ -1,6 +1,6 @@
 const box = document.querySelectorAll("div.longBox, div.smallBox");
 
-box.forEach(function(box) {
+const createShadow = box.forEach(function(box) {
   box.addEventListener("mouseover", function() {
     box.style.boxShadow = "4px 4px 10px purple";
   })
@@ -11,7 +11,7 @@ box.forEach(function(box) {
 
 const hightlight = document.querySelectorAll("div.spacePic");
 
-hightlight.forEach(function(hightlight) {
+const makeBlur = hightlight.forEach(function(hightlight) {
     hightlight.addEventListener("mouseover", function() {
         hightlight.style.filter = "blur(2px)";
     })
@@ -19,3 +19,4 @@ hightlight.forEach(function(hightlight) {
         hightlight.style.filter = "none";
     })
 })
+
