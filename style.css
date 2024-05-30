@@ -50,11 +50,36 @@ main {
    justify-content: center;
    border-radius: 1rem;
 }
+.linkBox {
+   position: relative;
+   width: 100%;
+   height: 100%;
+   /* overflow: hidden;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   text-decoration: none;
+   color: white; */
+}
+@keyframes textDrop {
+   0% {
+      top: -50%;
+   }
+   100% {
+      top: 25px;
+   }
+}
 .memojiPic {
    height: 10rem;
 }
 .spacePic {
-   background-image: url('/images/Screenshot\ 2024-05-26\ at\ 18.22.26.png');
+   background-image: url('/images/spaceSite.png');
+   background-size: 100%;
+   background-position: center;
+}
+.teaPic {
+   background-image: url('/images/teaSite.png');
    background-size: 100%;
    background-position: center;
 }
@@ -66,9 +91,6 @@ h1 {
 h2 {
    font-family: "Poiret One", sans-serif;
    font-size: 2rem;
-}
-.bottomMargin {
-   margin-bottom: 0;
 }
 p {
    font-family: "Poiret One", sans-serif;
