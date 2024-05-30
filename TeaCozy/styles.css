@@ -1,0 +1,132 @@
+body {
+   background-color: black;
+   margin: 0;   
+   opacity: 0.9;
+   color: seashell;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+   height: 69px;
+   border-bottom: 1px solid seashell;
+   position: sticky;
+   top: 0;
+   background-color: black;
+}
+
+.logo {
+   height: 50px;
+   position: absolute;
+   left: 10px;
+}
+
+a {
+   float: right;
+   padding-right: 20px;
+   font-size: 22px;
+   color: seashell;
+}
+
+div {
+  text-align: center;
+}
+
+#mission {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 700px;
+}
+
+.missionStatement {
+   background-color: black;
+   width: 1200px;
+}
+
+.missionpic {
+   z-index: -1;
+   position: absolute;
+   top: 69px;
+}
+
+#featured {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   background-color: black;
+   padding: 150px 0;
+}
+
+.teaStatement {
+   width: 1000px;
+}
+
+.teaarea {
+   width: 1000px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.teaText {
+   margin-top: 10px;
+}
+
+.teaimage {
+   width: 300px;
+   height: 200px;
+}
+
+.paddingRight {
+   padding-right: 50px;
+}
+
+#locations {
+   display: flex;
+   align-content: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   height: 500px;
+}
+
+.locationimage {
+   z-index: -1;
+   position: absolute;
+   top: 1630px;
+}
+
+.locationText {
+   width: 1000px;
+}
+
+.addressBox {
+   width: 1000px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.locationBox {
+   background-color: black;
+   width: 300px;
+}
+
+footer {
+   background-color: black;
+}
+
+.footerPadding {
+   padding: 20px 0;
+}
+
+.contactInfo {
+   height: 200px;
+}
+
+.copyright {
+   margin-left: 20px;
+}
+
