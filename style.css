@@ -1,19 +1,26 @@
+/* .poiret-one-regular {
+   font-family: "Poiret One", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+ }
+ .bebas-neue-regular {
+   font-family: "Bebas Neue", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+ }
+ .outfit-<uniquifier> {
+   font-family: "Outfit", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: <weight>;
+   font-style: normal;
+ }
+<uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 100 to 900 */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/****************************************** MAIN CODE ******************************************/
 
 body {
+   margin: 0;
    background-color: black;
 }
 main {
@@ -21,6 +28,13 @@ main {
    margin-bottom: 4rem;
    display: grid;
    justify-items: center;
+   color: white;
+}
+footer {
+   background-color: #1a1919fa;
+   display: flex;
+   height: 15rem;
+   justify-content: space-around;
    color: white;
 }
 .bentoRow {
@@ -92,10 +106,21 @@ h2 {
    font-family: "Poiret One", sans-serif;
    font-size: 2rem;
 }
+h3 {
+   font-family: "Outfit", sans-serif;
+   font-weight: 400;
+   font-size: 2.5rem;
+}
 p {
    font-family: "Poiret One", sans-serif;
    font-size: 1.25rem;
    padding: 0 5rem;
+}
+.bottomDelete {
+   margin-bottom: 0;
+}
+.middle {
+   margin: auto 0;
 }
 
 /****************************************** MOBILE CSS ******************************************/
