@@ -19,3 +19,9 @@ const makeBlur = hightlight.forEach(function(hightlight) {
       hightlight.style.backdropFilter = "none";
    })
 })
+
+function openWindow1()
+{
+var URL = "please specify your URL";
+window.open(URL,"RecoverPassword","width=700,height=450");
+}
