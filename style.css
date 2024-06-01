@@ -20,70 +20,70 @@
 /****************************************** MAIN CODE ******************************************/
 
 body {
-   margin: 0;
-   background-color: black;
+  margin: 0;
+  background-color: black;
 }
 main {
-   margin-top: 4rem;
-   margin-bottom: 4rem;
-   display: grid;
-   justify-items: center;
-   color: white;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  display: grid;
+  justify-items: center;
+  color: white;
 }
 footer {
-   background-color: #1a1919fa;
-   display: flex;
-   height: 15rem;
-   justify-content: space-around;
-   color: white;
+  background-color: #1a1919fa;
+  display: flex;
+  height: 15rem;
+  justify-content: space-around;
+  color: white;
 }
 .button {
-   font-family: "Bebas Neue", sans-serif;
-   font-size: 1.5rem;
-   display: block;
-   width: 115px;
-   height: 25px;
-   background: #4E9CAF;
-   padding: 10px;
-   text-align: center;
-   border-radius: 5px;
-   color: black;
-   font-weight: bold;
-   line-height: 25px;
-   text-decoration: none;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1.5rem;
+  display: block;
+  width: 115px;
+  height: 25px;
+  background: #4e9caf;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+  line-height: 25px;
+  text-decoration: none;
 }
 .bentoRow {
-   height: 15rem;
-   width: 60rem;
-   display: flex;
-   justify-content: space-around;
-   align-content: space-around;
-   flex-wrap: wrap;
+  height: 15rem;
+  width: 60rem;
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+  flex-wrap: wrap;
 }
 .longBox {
-   width: 74%;
-   height: 14.5rem;
-   background-color: #1a1919fa;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-direction: column;
-   border-radius: 1rem;
+  width: 74%;
+  height: 14.5rem;
+  background-color: #1a1919fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 1rem;
 }
 .smallBox {
-   width: 24%;
-   background-color: #1a1919fa;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   border-radius: 1rem;
+  width: 24%;
+  background-color: #1a1919fa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
 }
 .linkBox {
-   position: relative;
-   width: 100%;
-   height: 100%;
-   /* overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /* overflow: hidden;
    display: flex;
    justify-content: center;
    flex-direction: column;
@@ -92,147 +92,201 @@ footer {
    color: white; */
 }
 @keyframes textDrop {
-   0% {
-      top: -50%;
-   }
-   100% {
-      top: 25px;
-   }
+  0% {
+    top: -50%;
+  }
+  100% {
+    top: 25px;
+  }
 }
 .memojiPic {
-   height: 10rem;
+  height: 10rem;
 }
 .spacePic {
-   background-image: url('/images/spaceSite.png');
-   background-size: 100%;
-   background-position: center;
+  background-image: url("/images/spaceSite.png");
+  background-size: 100%;
+  background-position: center;
 }
 .teaPic {
-   background-image: url('/images/teaSite.png');
-   background-size: 100%;
-   background-position: center;
+  background-image: url("/images/teaSite.png");
+  background-size: 100%;
+  background-position: center;
 }
 h1 {
-   font-family: "Bebas Neue", sans-serif;
-   font-size: 4rem;
-   margin: 0 auto 1rem;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 4rem;
+  margin: 0 auto 1rem;
 }
 h2 {
-   font-family: "Poiret One", sans-serif;
-   font-size: 2rem;
+  font-family: "Poiret One", sans-serif;
+  font-size: 2rem;
 }
 .mobileTitle {
-   visibility: hidden;
+  visibility: hidden;
 }
 h3 {
-   font-family: "Outfit", sans-serif;
-   font-weight: 400;
-   font-size: 2.5rem;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 2.5rem;
 }
 p {
-   font-family: "Poiret One", sans-serif;
-   font-size: 1.25rem;
-   padding: 0 5rem;
+  font-family: "Poiret One", sans-serif;
+  font-size: 1.25rem;
+  padding: 0 5rem;
 }
 .bottomDelete {
-   margin-bottom: 0;
+  margin-bottom: 0;
 }
 .middle {
-   margin: auto 0;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
+  margin: auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .logos {
-   display: flex;
+  display: flex;
 }
 .information {
-   display: flex;
-   align-items: center;
-   flex-direction: column;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 #popup-window {
-   position: fixed;
-   width: 40rem;
-   height: 30rem;
-   background: #1a1919fa;
-   border: 1px solid black;
-   padding: 10px;
-   margin: auto;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 10;
-   display: none;
- }        
+  position: fixed;
+  width: 40rem;
+  height: 30rem;
+  background: #1a1919fa;
+  backdrop-filter: blur(10px);
+  border: 1px solid black;
+  padding: 10px;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  display: none;
+}
+button {
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  background: red;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+  background: #e62222;
+}
+button,
+button span {
+  transition: 200ms;
+}
+button .text {
+  transform: translateX(35px);
+  color: white;
+  font-weight: bold;
+}
+button .icon {
+  position: absolute;
+  border-left: 1px solid #c41b1b;
+  transform: translateX(110px);
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button svg {
+  width: 15px;
+  fill: #eee;
+}
+button:hover {
+  background: #ff3636;
+}
+button:hover .text {
+  color: transparent;
+}
+button:hover .icon {
+  width: 150px;
+  border-left: none;
+  transform: translateX(0);
+}
+button:focus {
+  outline: none;
+}
+button:active .icon svg {
+  transform: scale(0.8);
+}
 
 /****************************************** MOBILE CSS ******************************************/
 
 @media only screen and (max-width: 768px) {
-   .bentoRow {
-      height: 15rem;
-      width: 40rem;
-      display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap;
-   }
-   .longBox {
-      width: 90%;
-      height: 14.5rem;
-      background-color: #1a1919fa;
-      display: flex;
-      border-radius: 1rem;
-   }
-   .smallBox {
-      display: none;
-   }
-   .linkBox {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-decoration: none;
-      backdrop-filter: blur(6px);
-   }
-   .mobileTitle {
-      font-family: "Outfit", sans-serif;
-      font-weight: 400;
-      visibility: visible;
-      color: white;
-   }
-   .contact {
-      display: none;
-   }
-   footer {
-      background-color: #1a1919fa;
-      display: flex;
-      height: 15rem;
-      flex-direction: column;
-      align-items: center;
-      color: white;
-   }
-   .middle {
-      margin: 20px auto;
-   }
-   .middle h2 {
-      display: none;
-   }
-   .button {
-      margin-bottom: 50px;
-   }
-   #popup-window {
-      position: fixed;
-      width: 40rem;
-      height: 30rem;
-      background: #1a1919fa;
-      border: 1px solid black;
-      padding: 10px;
-      margin: auto;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      z-index: 10;
-      display: none;
-    } 
+  .bentoRow {
+    height: 15rem;
+    width: 40rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .longBox {
+    width: 90%;
+    height: 14.5rem;
+    background-color: #1a1919fa;
+    display: flex;
+    border-radius: 1rem;
+  }
+  .smallBox {
+    display: none;
+  }
+  .linkBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    backdrop-filter: blur(6px);
+  }
+  .mobileTitle {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    visibility: visible;
+    color: white;
+  }
+  .contact {
+    display: none;
+  }
+  footer {
+    background-color: #1a1919fa;
+    display: flex;
+    height: 15rem;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+  }
+  .middle {
+    margin: 20px auto;
+  }
+  .middle h2 {
+    display: none;
+  }
+  .button {
+    margin-bottom: 50px;
+  }
+  #popup-window {
+    position: fixed;
+    width: 40rem;
+    height: 30rem;
+    background: #1a1919fa;
+    backdrop-filter: blur(10px);
+    border: 1px solid black;
+    padding: 10px;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    display: none;
+  }
 }
