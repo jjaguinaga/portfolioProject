@@ -196,9 +196,27 @@ p {
       color: white;
    }
    .middle {
-      margin-top: 0;
+      margin: 20px auto;
+   }
+   .middle h2 {
+      display: none;
    }
    .button {
       margin-bottom: 50px;
    }
+   #popup-window {
+      position: fixed;
+      width: 40rem;
+      height: 30rem;
+      background: #1a1919fa;
+      border: 1px solid black;
+      padding: 10px;
+      margin: auto;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 10;
+      display: none;
+    } 
 }
