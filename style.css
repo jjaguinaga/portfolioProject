@@ -121,6 +121,9 @@ h2 {
    font-family: "Poiret One", sans-serif;
    font-size: 2rem;
 }
+.mobileTitle {
+   visibility: hidden;
+}
 h3 {
    font-family: "Outfit", sans-serif;
    font-weight: 400;
@@ -183,6 +186,19 @@ p {
    }
    .smallBox {
       display: none;
+   }
+   .linkBox {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      backdrop-filter: blur(6px);
+   }
+   .mobileTitle {
+      font-family: "Outfit", sans-serif;
+      font-weight: 400;
+      visibility: visible;
+      color: white;
    }
    .contact {
       display: none;
