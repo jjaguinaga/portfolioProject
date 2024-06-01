@@ -151,10 +151,13 @@ p {
   align-items: center;
   flex-direction: column;
 }
+.information p {
+   font-size: 2rem;
+}
 #popup-window {
   position: fixed;
   width: 40rem;
-  height: 30rem;
+  height: 20rem;
   background: #1a1919fa;
   backdrop-filter: blur(10px);
   border: 1px solid black;
@@ -276,8 +279,8 @@ button:active .icon svg {
   }
   #popup-window {
     position: fixed;
-    width: 40rem;
-    height: 30rem;
+    width: 30rem;
+    height: 20rem;
     background: #1a1919fa;
     backdrop-filter: blur(10px);
     border: 1px solid black;
